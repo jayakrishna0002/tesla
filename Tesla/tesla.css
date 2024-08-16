@@ -1,0 +1,353 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(./tesla.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    background: transparent; 
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #fff;
+}
+
+.header .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.header .nav-links li {
+    margin-right: 20px;
+}
+
+.header .nav-links li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+.hero-1 {
+    background-image:url(./tesla1.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.hero-1 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-1 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.cta-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-1 button {
+    padding: 15px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #000;
+}
+.hero-2 {
+    background-image:url(./tesla2.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-2 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-2 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero-3 {
+    background-image:url(./tesla3.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-3 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-3 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero-4 {
+    background-image:url(./tesla4.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-4 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-4 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero-5 {
+    background-image:url(./tesla5.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-5 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-5 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero-6 {
+    background-image:url(./tesla6.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+   
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-6 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-6 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero-7 {
+    background-image:url(./tesla7.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-7 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-7 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero-8 {
+    background-image:url(./tesla8.avif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    text-align: center;
+    padding-top: 60px; 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    color: #fff;
+}
+
+.hero-8 h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-8 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.footer {
+            background-color: #f2f2f2;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+        } 
+        .card {
+            margin: 20px auto;
+            max-width: 600px;
+        }
+        .card-header {
+            background-color: #000;
+            color: #fff;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .terms {
+            color: #007bff;
+            text-decoration: underline;
+            cursor: pointer;
+        }
